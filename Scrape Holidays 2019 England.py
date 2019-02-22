@@ -13,8 +13,10 @@ town = 'barking-and-dagenham'
 holidays = pd.read_html('https://publicholidays.co.uk/school-holidays/england/barking-and-dagenham/')
 holidays_2019 = holidays[0]
 holidays_2020 = holidays[1]
-print(holidays_2019, type(holidays_2019), holidays_2019.size)
-print('\n', holidays_2019.iloc[:, 0])
+#print(holidays_2019, type(holidays_2019), holidays_2019.size)
+#print('\n', holidays_2019.iloc[:, 0])
+holidays_2019.insert(0, 'Town', town)
+print('\n', holidays_2019)
 #df_town_holiday = pd.DataFrame({'LA': town,
   #                              '':holidays_2019})
 #print(df_town_holiday)
