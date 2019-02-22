@@ -14,5 +14,5 @@ for i in towns:
     holidays_2019.insert(0, 'Local Authority', LA)
     holidays_2020.insert(0, 'Local Authority', LA)
     town_holidays = holidays_2019.append(holidays_2020, ignore_index=True)
-    town_holidays.to_csv('School Holidays 2018-2020 England.csv', mode='a', header=True)
+    town_holidays.to_csv('School Holidays 2018-2019 England.csv', mode='a', header=True)
     print(str(LA) + ' is exported.')
