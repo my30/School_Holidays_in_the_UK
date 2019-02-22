@@ -6,8 +6,8 @@ with open('List of Towns/townsengland.csv', 'r') as file_towns:
     towns = reader(file_towns)
     towns = list(towns)
 
-for town in towns:
-    LA = town[0]
+for i in towns:
+    LA = i[0]
     holidays = pd.read_html('https://publicholidays.co.uk/school-holidays/england/' + LA)
     holidays_2019 = holidays[0]
     holidays_2020 = holidays[1]
