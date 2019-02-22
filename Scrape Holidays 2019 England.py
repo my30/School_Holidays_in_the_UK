@@ -8,13 +8,11 @@ with open('List of Towns/townsengland.csv', 'r') as file_towns:
 
 df_towns = pd.DataFrame(towns, columns=["Local Authority"])
 
-print()
-
-holidays = pd.read_html('https://publicholidays.co.uk/school-holidays/england/barking-and-dagenham/')
-holidays_2019 = holidays[0]
-holidays_2020 = holidays[1]
-holidays_2019.insert(0, 'Local Authority', town)
-holidays_2020.insert(0, 'Local Authority', town)
-town_holidays = holidays_2019.append(holidays_2020, ignore_index=True)
-print('\n', town_holidays)
-town_holidays.to_csv('schoolHolidays.csv', mode='w', header=True)
+for town in df_towns:
+    holidays = pd.read_html('https://publicholidays.co.uk/school-holidays/england/' + town)
+    holidays_2019 = holidays[0]
+    holidays_2020 = holidays[1]
+    holidays_2019.insert(0, 'Local Authority', town)
+    holidays_2020.insert(0, 'Local Authority', town)
+    town_holidays = holidays_2019.append(holidays_2020, ignore_index=True)
+    town_holidays.to_csv('schoolHolidays.csv', mode='a', header=True)
