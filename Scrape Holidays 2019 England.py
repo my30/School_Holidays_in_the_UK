@@ -19,6 +19,6 @@ holidays_2020 = holidays[1]
 #print('\n', holidays_2019.iloc[:, 0])
 holidays_2019.insert(0, 'Local Authority', town)
 holidays_2020.insert(0, 'Local Authority', town)
-town_holidays = holidays_2019.append(holidays_2020, ignore_index=False)
+town_holidays = holidays_2019.append(holidays_2020, ignore_index=True)
 print('\n', town_holidays)
-town_holidays.to_csv('schoolHolidays.csv', mode='a', header=True)
+town_holidays.to_csv('schoolHolidays.csv', mode='w', header=True)
