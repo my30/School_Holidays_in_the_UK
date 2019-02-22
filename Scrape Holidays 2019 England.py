@@ -1,12 +1,12 @@
 import pandas as pd
 from csv import reader
 
-with open('townsengland.csv', 'r') as file:
-    towns = reader(file)
-    towns = list(towns)
+#with open('townsengland.csv', 'r') as file:
+    #towns = reader(file)
+    #towns = list(towns)
 
 
-df_town = pd.DataFrame(towns, columns=["Place Name"])
+#df_town = pd.DataFrame(towns, columns=["Place Name"])
 
 town = 'barking-and-dagenham'
 
@@ -14,8 +14,12 @@ holidays = pd.read_html('https://publicholidays.co.uk/school-holidays/england/ba
 holidays_2019 = holidays[0]
 holidays_2020 = holidays[1]
 print(holidays_2019, type(holidays_2019), holidays_2019.size)
-print(holidays_2019.iloc[:, 0])
-with open('barking_and_dagenham.csv', 'r') as file_1:
+print('\n', holidays_2019.iloc[:, 0])
+#df_town_holiday = pd.DataFrame({'LA': town,
+  #                              '':holidays_2019})
+#print(df_town_holiday)
+
+#with open('barking_and_dagenham.csv', 'r') as file_1:
 
 
 
