@@ -1,16 +1,14 @@
 # Ming Yang 21/Feb/2019
 import pandas as pd
-import csv
 from csv import reader
 
-#with open('townsengland.csv', 'r') as file:
-    #towns = reader(file)
-    #towns = list(towns)
+with open('List of Towns/townsengland.csv', 'r') as file_towns:
+    towns = reader(file_towns)
+    towns = list(towns)
 
+df_towns = pd.DataFrame(towns, columns=["Local Authority"])
 
-#df_town = pd.DataFrame(towns, columns=["Place Name"])
-
-town = 'barking-and-dagenham'
+print()
 
 holidays = pd.read_html('https://publicholidays.co.uk/school-holidays/england/barking-and-dagenham/')
 holidays_2019 = holidays[0]
