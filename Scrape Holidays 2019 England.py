@@ -1,4 +1,6 @@
+# Ming Yang 21/Feb/2019
 import pandas as pd
+import csv
 from csv import reader
 
 #with open('townsengland.csv', 'r') as file:
@@ -15,21 +17,8 @@ holidays_2019 = holidays[0]
 holidays_2020 = holidays[1]
 #print(holidays_2019, type(holidays_2019), holidays_2019.size)
 #print('\n', holidays_2019.iloc[:, 0])
-holidays_2019.insert(0, 'Town', town)
-print('\n', holidays_2019)
-#df_town_holiday = pd.DataFrame({'LA': town,
-  #                              '':holidays_2019})
-#print(df_town_holiday)
-
-#with open('barking_and_dagenham.csv', 'r') as file_1:
-
-
-
-#df_holidays = pd.DataFrame(holidays)
-
-#print(type(df_town), df_town)
-#print(type(holidays), holidays, len(holidays))
-#print(type(df_holidays), df_holidays.size)
-#with open('barking_and_dagenham.csv', 'w') as myFile:
-    #df_town.to_csv('barking_and_dagenham.csv', mode='a', index=False)
-    #df_holidays.to_csv('barking_and_dagenham.csv', mode='w', index=False)
+holidays_2019.insert(0, 'Local Authority', town)
+holidays_2020.insert(0, 'Local Authority', town)
+town_holidays = holidays_2019.append(holidays_2020, ignore_index=False)
+print('\n', town_holidays)
+town_holidays.to_csv('schoolHolidays.csv', mode='a', header=True)
