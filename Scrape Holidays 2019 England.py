@@ -1,35 +1,18 @@
+# Ming Yang 21/Feb/2019
 import pandas as pd
 from csv import reader
 
-#with open('townsengland.csv', 'r') as file:
-    #towns = reader(file)
-    #towns = list(towns)
+with open('List of Towns/townsengland.csv', 'r') as file_towns:
+    towns = reader(file_towns)
+    towns = list(towns)
 
-
-#df_town = pd.DataFrame(towns, columns=["Place Name"])
-
-town = 'barking-and-dagenham'
-
-holidays = pd.read_html('https://publicholidays.co.uk/school-holidays/england/barking-and-dagenham/')
-holidays_2019 = holidays[0]
-holidays_2020 = holidays[1]
-#print(holidays_2019, type(holidays_2019), holidays_2019.size)
-#print('\n', holidays_2019.iloc[:, 0])
-holidays_2019.insert(0, 'Town', town)
-print('\n', holidays_2019)
-#df_town_holiday = pd.DataFrame({'LA': town,
-  #                              '':holidays_2019})
-#print(df_town_holiday)
-
-#with open('barking_and_dagenham.csv', 'r') as file_1:
-
-
-
-#df_holidays = pd.DataFrame(holidays)
-
-#print(type(df_town), df_town)
-#print(type(holidays), holidays, len(holidays))
-#print(type(df_holidays), df_holidays.size)
-#with open('barking_and_dagenham.csv', 'w') as myFile:
-    #df_town.to_csv('barking_and_dagenham.csv', mode='a', index=False)
-    #df_holidays.to_csv('barking_and_dagenham.csv', mode='w', index=False)
+for i in towns:
+    LA = i[0]
+    holidays = pd.read_html('https://publicholidays.co.uk/school-holidays/england/' + LA)
+    holidays_2019 = holidays[0]
+    holidays_2020 = holidays[1]
+    holidays_2019.insert(0, 'Local Authority', LA)
+    holidays_2020.insert(0, 'Local Authority', LA)
+    town_holidays = holidays_2019.append(holidays_2020, ignore_index=True)
+    town_holidays.to_csv('schoolHolidays.csv', mode='a', header=True)
+    print(str(LA) + ' is exported.')
