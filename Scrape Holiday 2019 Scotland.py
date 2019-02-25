@@ -2,6 +2,12 @@
 import pandas as pd
 from csv import reader
 
+filename = 'Scraped data/School Holidays 2018-2019 Scotland.csv'
+# open and truncate the file
+f = open(filename, mode='w+')
+f.close()
+print('Data from' + filename + 'have been truncated. \nScraping now begins.')
+
 with open('List of Towns/townsscotland.csv', 'r') as fileTowns:
     towns = reader(fileTowns)
     towns = list(towns)
@@ -14,5 +20,5 @@ for i in towns:
     #holidays_2020 = holidays[1]
     #holidays_2020.insert(0, 'Local Authority', LA)
     #towns_holidays = holidays_2019.append(holidays_2020, ignore_index=False)
-    holidays_2019.to_csv('Scraped data/School Holidays 2018-2019 Scotland.csv', mode='a', header=True)
+    holidays_2019.to_csv('Scraped data/School Holidays 2018-2019 Scotland.csv', mode='a', header=False)
     print(str(LA) + ' is exported.')
