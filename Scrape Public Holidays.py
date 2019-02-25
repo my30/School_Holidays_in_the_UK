@@ -5,6 +5,7 @@ filename = 'Scraped data/Public Holidays in the UK from 2019.csv'
 # open and truncate the file
 f = open(filename, mode='w+')
 f.close()
+print('Data from "Public Holidays in the UK from 2019.csv" have been truncated. \nScraping now begins.')
 
 countries = ['england', 'scotland', 'wales', 'northern-ireland']
 
