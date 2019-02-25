@@ -29,5 +29,4 @@ for i in countries:
     public_holidays_since_2019 = holidays_2019.append(holidays_2020, ignore_index=False)
     public_holidays_since_2019.to_csv('Scraped data/Public Holidays in the UK from 2019.csv', mode='a', header=False)
     print('Data for ' + i + ' are exported successfully.')
-
 print('Job done.')
