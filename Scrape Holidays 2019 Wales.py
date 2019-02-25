@@ -24,3 +24,4 @@ for i in towns:
     towns_holidays = holidays_2019.append(holidays_2020, ignore_index=True)
     towns_holidays.to_csv('Scraped data/School Holidays 2018-2020 Wales.csv', mode='a', header=False)
     print(str(LA) + ' is exported.')
+print('Job done.')
