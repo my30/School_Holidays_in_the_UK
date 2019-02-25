@@ -6,7 +6,7 @@ filename = 'Scraped data/School Holidays 2018-2019 England.csv'
 # open and truncate the file
 f = open(filename, mode='w+')
 f.close()
-print('Data from' + filename + 'have been truncated. \nScraping now begins.')
+print('Data from' + filename + ' have been truncated. \nScraping now begins.')
 
 with open('List of Towns/townsengland.csv', 'r') as file_towns:
     towns = reader(file_towns)

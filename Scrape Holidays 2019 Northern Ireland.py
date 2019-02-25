@@ -5,7 +5,7 @@ filename = 'Scraped data/School Holidays 2018-2019 Northern Ireland.csv'
 # open and truncate the file
 f = open(filename, mode='w+')
 f.close()
-print('Data from' + filename + 'have been truncated. \nScraping now begins.')
+print('Data from' + filename + ' have been truncated. \nScraping now begins.')
 
 holidays = pd.read_html('https://publicholidays.co.uk/school-holidays/northern-ireland/')
 holidays_2019 = holidays[0]
