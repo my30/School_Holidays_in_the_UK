@@ -2,7 +2,7 @@
 import pandas as pd
 from csv import reader
 
-filename = 'Scraped data/School Holidays 2018-2019 Scotland.csv'
+filename = 'Scrapped data/School Holidays 2018-2019 Scotland.csv'
 # open and truncate the file
 f = open(filename, mode='w+')
 f.close()
@@ -22,6 +22,6 @@ for i in towns:
     #holidays_2020.insert(0, 'Local Authority', LA)
     #holidays_2020.insert(0, 'Country', 'Scotland')
     #towns_holidays = holidays_2019.append(holidays_2020, ignore_index=False)
-    holidays_2019.to_csv('Scraped data/School Holidays 2018-2019 Scotland.csv', mode='a', header=False)
+    holidays_2019.to_csv('Scrapped data/School Holidays 2018-2019 Scotland.csv', mode='a', header=False)
     print(str(LA) + ' is exported.')
 print('Job done.')

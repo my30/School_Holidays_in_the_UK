@@ -1,7 +1,7 @@
 # Ming 25/Feb/2019
 import pandas as pd
 
-filename = 'Scraped data/Public Holidays in the UK from 2019.csv'
+filename = 'Scrapped data/Public Holidays in the UK from 2019.csv'
 # open and truncate the file
 f = open(filename, mode='w+')
 f.close()
@@ -27,6 +27,6 @@ for i in countries:
     holidays_2020.insert(2, 'Year', '2020')
     # public_holidays_since_2019 = pd.concat(holidays_2019, holidays_2020)
     public_holidays_since_2019 = holidays_2019.append(holidays_2020, ignore_index=False)
-    public_holidays_since_2019.to_csv('Scraped data/Public Holidays in the UK from 2019.csv', mode='a', header=False)
+    public_holidays_since_2019.to_csv('Scrapped data/Public Holidays in the UK from 2019.csv', mode='a', header=False)
     print('Data for ' + i + ' are exported successfully.')
 print('Job done.')
