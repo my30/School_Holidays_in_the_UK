@@ -1,0 +1,77 @@
+Country,day-month,Year,Day,Name,Date,Day,Month,Year,Country
+england,01-Jan,2019,Tue,New Year's Day,01/01/2019,1,1,2019,england
+england,19-Apr,2019,Fri,Good Friday,19/04/2019,19,4,2019,england
+england,22-Apr,2019,Mon,Easter Monday,22/04/2019,22,4,2019,england
+england,06-May,2019,Mon,May Day,06/05/2019,6,5,2019,england
+england,27-May,2019,Mon,Late May Bank Holiday,27/05/2019,27,5,2019,england
+england,26-Aug,2019,Mon,August Bank Holiday,26/08/2019,26,8,2019,england
+england,25-Dec,2019,Wed,Christmas Day,25/12/2019,25,12,2019,england
+england,26-Dec,2019,Thu,Boxing Day,26/12/2019,26,12,2019,england
+england,01-Jan,2020,Wed,New Year's Day,01/01/2019,1,1,2020,england
+england,10-Apr,2020,Fri,Good Friday,10/04/2019,10,4,2020,england
+england,13-Apr,2020,Mon,Easter Monday,13/04/2019,13,4,2020,england
+england,04-May,2020,Mon,May Day,04/05/2019,4,5,2020,england
+england,25-May,2020,Mon,Late May Bank Holiday,25/05/2019,25,5,2020,england
+england,31-Aug,2020,Mon,August Bank Holiday,31/08/2019,31,8,2020,england
+england,25-Dec,2020,Fri,Christmas Day,25/12/2019,25,12,2020,england
+england,26-Dec,2020,Sat,Boxing Day,26/12/2019,26,12,2020,england
+england,28-Dec,2020,Mon,Boxing Day Holiday,28/12/2019,28,12,2020,england
+scotland,01-Jan,2019,Tue,New Year's Day,01/01/2019,1,1,2019,scotland
+scotland,02-Jan,2019,Wed,New Year Holiday,02/01/2019,2,1,2019,scotland
+scotland,19-Apr,2019,Fri,Good Friday,19/04/2019,19,4,2019,scotland
+scotland,06-May,2019,Mon,May Day,06/05/2019,6,5,2019,scotland
+scotland,27-May,2019,Mon,Late May Bank Holiday,27/05/2019,27,5,2019,scotland
+scotland,05-Aug,2019,Mon,August Bank Holiday,05/08/2019,5,8,2019,scotland
+scotland,30-Nov,2019,Sat,St Andrew's Day,30/11/2019,30,11,2019,scotland
+scotland,02-Dec,2019,Mon,St Andrew's Day Holiday,02/12/2019,2,12,2019,scotland
+scotland,25-Dec,2019,Wed,Christmas Day,25/12/2019,25,12,2019,scotland
+scotland,26-Dec,2019,Thu,Boxing Day,26/12/2019,26,12,2019,scotland
+scotland,01-Jan,2020,Wed,New Year's Day,01/01/2019,1,1,2020,scotland
+scotland,02-Jan,2020,Thu,New Year Holiday,02/01/2019,2,1,2020,scotland
+scotland,10-Apr,2020,Fri,Good Friday,10/04/2019,10,4,2020,scotland
+scotland,04-May,2020,Mon,May Day,04/05/2019,4,5,2020,scotland
+scotland,25-May,2020,Mon,Late May Bank Holiday,25/05/2019,25,5,2020,scotland
+scotland,03-Aug,2020,Mon,August Bank Holiday,03/08/2019,3,8,2020,scotland
+scotland,30-Nov,2020,Mon,St Andrew's Day,30/11/2019,30,11,2020,scotland
+scotland,25-Dec,2020,Fri,Christmas Day,25/12/2019,25,12,2020,scotland
+scotland,26-Dec,2020,Sat,Boxing Day,26/12/2019,26,12,2020,scotland
+scotland,28-Dec,2020,Mon,Boxing Day Holiday,28/12/2019,28,12,2020,scotland
+wales,01-Jan,2019,Tue,New Year's Day,01/01/2019,1,1,2019,wales
+wales,19-Apr,2019,Fri,Good Friday,19/04/2019,19,4,2019,wales
+wales,22-Apr,2019,Mon,Easter Monday,22/04/2019,22,4,2019,wales
+wales,06-May,2019,Mon,May Day,06/05/2019,6,5,2019,wales
+wales,27-May,2019,Mon,Late May Bank Holiday,27/05/2019,27,5,2019,wales
+wales,26-Aug,2019,Mon,August Bank Holiday,26/08/2019,26,8,2019,wales
+wales,25-Dec,2019,Wed,Christmas Day,25/12/2019,25,12,2019,wales
+wales,26-Dec,2019,Thu,Boxing Day,26/12/2019,26,12,2019,wales
+wales,01-Jan,2020,Wed,New Year's Day,01/01/2019,1,1,2020,wales
+wales,10-Apr,2020,Fri,Good Friday,10/04/2019,10,4,2020,wales
+wales,13-Apr,2020,Mon,Easter Monday,13/04/2019,13,4,2020,wales
+wales,04-May,2020,Mon,May Day,04/05/2019,4,5,2020,wales
+wales,25-May,2020,Mon,Late May Bank Holiday,25/05/2019,25,5,2020,wales
+wales,31-Aug,2020,Mon,August Bank Holiday,31/08/2019,31,8,2020,wales
+wales,25-Dec,2020,Fri,Christmas Day,25/12/2019,25,12,2020,wales
+wales,26-Dec,2020,Sat,Boxing Day,26/12/2019,26,12,2020,wales
+wales,28-Dec,2020,Mon,Boxing Day Holiday,28/12/2019,28,12,2020,wales
+northern-ireland,01-Jan,2019,Tue,New Year's Day,01/01/2019,1,1,2019,northern-ireland
+northern-ireland,17-Mar,2019,Sun,Saint Patrick's Day,17/03/2019,17,3,2019,northern-ireland
+northern-ireland,18-Mar,2019,Mon,St Patrick's Day Holiday,18/03/2019,18,3,2019,northern-ireland
+northern-ireland,19-Apr,2019,Fri,Good Friday,19/04/2019,19,4,2019,northern-ireland
+northern-ireland,22-Apr,2019,Mon,Easter Monday,22/04/2019,22,4,2019,northern-ireland
+northern-ireland,06-May,2019,Mon,May Day,06/05/2019,6,5,2019,northern-ireland
+northern-ireland,27-May,2019,Mon,Late May Bank Holiday,27/05/2019,27,5,2019,northern-ireland
+northern-ireland,12-Jul,2019,Fri,Battle of the Boyne,12/07/2019,12,7,2019,northern-ireland
+northern-ireland,26-Aug,2019,Mon,August Bank Holiday,26/08/2019,26,8,2019,northern-ireland
+northern-ireland,25-Dec,2019,Wed,Christmas Day,25/12/2019,25,12,2019,northern-ireland
+northern-ireland,26-Dec,2019,Thu,Boxing Day,26/12/2019,26,12,2019,northern-ireland
+northern-ireland,01-Jan,2020,Wed,New Year's Day,01/01/2019,1,1,2020,northern-ireland
+northern-ireland,17-Mar,2020,Tue,Saint Patrick's Day,17/03/2019,17,3,2020,northern-ireland
+northern-ireland,10-Apr,2020,Fri,Good Friday,10/04/2019,10,4,2020,northern-ireland
+northern-ireland,13-Apr,2020,Mon,Easter Monday,13/04/2019,13,4,2020,northern-ireland
+northern-ireland,04-May,2020,Mon,May Day,04/05/2019,4,5,2020,northern-ireland
+northern-ireland,25-May,2020,Mon,Late May Bank Holiday,25/05/2019,25,5,2020,northern-ireland
+northern-ireland,12-Jul,2020,Sun,Battle of the Boyne,12/07/2019,12,7,2020,northern-ireland
+northern-ireland,31-Aug,2020,Mon,August Bank Holiday,31/08/2019,31,8,2020,northern-ireland
+northern-ireland,25-Dec,2020,Fri,Christmas Day,25/12/2019,25,12,2020,northern-ireland
+northern-ireland,26-Dec,2020,Sat,Boxing Day,26/12/2019,26,12,2020,northern-ireland
+northern-ireland,28-Dec,2020,Mon,Boxing Day Holiday,28/12/2019,28,12,2020,northern-ireland
